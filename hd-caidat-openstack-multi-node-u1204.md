@@ -86,9 +86,9 @@ Truy cập bằng tài khoản root vào máy các máy chủ và tải các gó
 
 	apt-get install git -y
 	
-	git clone https://github.com/congto/icehouse-multinode-ubuntu.git
+	git clone https://github.com/vietstacker/openstack-icehouse-multinode-ubuntu-v1.git
 	
-	mv /root/icehouse-multinode-ubuntu/script-ubuntu1204/ script-ubuntu1204
+	mv /root/openstack-icehouse-multinode-ubuntu-v1/script-ubuntu1204/ script-ubuntu1204
 	
 	cd script-ubuntu1204
 	
