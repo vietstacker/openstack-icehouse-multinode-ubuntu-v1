@@ -8,6 +8,11 @@
 |Hoàng Đình Quân   | hdquan2014 | d0m0reg00dthing@gmail.com |
 | VietStacker      | vietstack  | vietstack@gmail.com |
 
+#### Thông tin phiên bản
+
+| Ngày tạo	   | Tên Phiên Bản |   Thông tin phiên bản   | Người thay đổi       |               Chú ý               |
+| -------------|---------------|-------------------------| ---------------------|--------------|------------------------| 
+| 10/07/2014   |    V1.0    | - Tạo các scritp đầu tiên | Tô Thành Công | |
 
 #### Chú ý 
 - Script được thực hiện trong môi trường VMware Workstation
