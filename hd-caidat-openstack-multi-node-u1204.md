@@ -45,6 +45,8 @@ Vào tab "Edit" ==> Virtual Network Editor.
 
 #### A.1. Mô hình triển khai trong môi trường VMware Workstation
 
+Đang cập nhật
+
 #### A.2. Thiết lập cho từng node
 
 - Khi cài đặt UBUNTU trong Vmware Workstation đảm bảo đúng thứ tự network
