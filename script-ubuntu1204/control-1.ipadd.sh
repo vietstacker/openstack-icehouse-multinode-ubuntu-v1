@@ -23,7 +23,7 @@ netmask $NETMASK_ADD
 auto eth1
 iface eth1 inet static
 address $CON_EXT_IP
-netmask 255.255.255.0
+netmask $NETMASK_ADD
 gateway $GATEWAY_IP
 dns-nameservers 8.8.8.8
 EOF
