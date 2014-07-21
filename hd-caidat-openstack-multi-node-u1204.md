@@ -46,7 +46,7 @@ Vào tab "Edit" ==> Virtual Network Editor.
 #### A.1. Mô hình triển khai trong môi trường VMware Workstation
 Mô hình 3 node cài đặt OpenStack bên trong một máy LAPTOP
 
-![Alt text](http://i.imgur.com/b7i6faP.png)
+![Alt text](http://i.imgur.com/1htxCxz.png)
 
 #### A.2. Thiết lập cho từng node
 
