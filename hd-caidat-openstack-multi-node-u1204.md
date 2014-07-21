@@ -88,17 +88,19 @@ Minh họa bằng hình:
 
 #### B.1. Thao tác trên tất cả các máy chủ
 Truy cập bằng tài khoản root vào máy các máy chủ và tải các gói, script chuẩn bị cho quá trình cài đặt
+```sh
+apt-get update
 
-	apt-get install git -y
+apt-get install git -y
 	
-	git clone https://github.com/vietstacker/openstack-icehouse-multinode-ubuntu-v1.git
+git clone https://github.com/vietstacker/openstack-icehouse-multinode-ubuntu-v1.git
 	
-	mv /root/openstack-icehouse-multinode-ubuntu-v1/script-ubuntu1204/ script-ubuntu1204
+mv /root/openstack-icehouse-multinode-ubuntu-v1/script-ubuntu1204/ script-ubuntu1204
 	
-	cd script-ubuntu1204
+cd script-ubuntu1204
 	
-	chmod +x *.sh
-
+chmod +x *.sh
+```
 #### B.2. Sửa file khai báo các thông số trước khi thực thi shell
 Trước lúc chỉnh sửa, KHÔNG cần gán IP tĩnh cho các NICs trên từng máy chủ.
 Dùng vi để sửa file config.cfg nằm trong thư mục script-ubuntu1204 với các IP theo ý bạn hoặc giữ nguyên các IP và đảm bảo chúng chưa được gán cho máy nào trong mạng của bạn.
