@@ -290,11 +290,10 @@ Chú ý: Shell sẽ chuyển eth1 sang chế độ promisc và đặt IP cho br-
 #### D.2. Thực thi việc cài đặt NEUTRON và cấu hình
 - Dùng putty ssh vào NETWORK NODE bằng IP 192.168.1.172 với tài khoản root
 - Di chuyển vào thư mục script-ubuntu1204 và thực thi shell dưới
-
-    cd script-ubuntu1204
-	
-    bash net-prepare.sh
-
+```sh
+cd script-ubuntu1204
+bash net-prepare.sh
+```
 Kết thúc cài đặt trên NETWORK NODE và chuyển sang cài đặt COMPUTE NODE
 
 ### E. CÀI ĐẶT TRÊN COMPUTE NODE (COMPUTE1)
