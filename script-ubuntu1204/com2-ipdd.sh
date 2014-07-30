@@ -4,7 +4,7 @@ source config.cfg
 
 echo "Cau hinh hostname cho COMPUTE2 NODE"
 sleep 3
-echo "compute1" > /etc/hostname
+echo "compute2" > /etc/hostname
 hostname -F /etc/hostname
 
 
@@ -22,7 +22,7 @@ iface lo inet loopback
 # MGNT NETWORK
 auto eth0
 iface eth0 inet static
-address $COM1_MGNT_IP
+address $COM2_MGNT_IP
 netmask $NETMASK_ADD
 
 
