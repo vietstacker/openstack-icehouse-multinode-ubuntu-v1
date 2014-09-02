@@ -116,14 +116,22 @@ auth_strategy = keystone
 rpc_backend = rabbit
 rabbit_host = controller
 rabbit_password = $RABBIT_PASS
+
+# Chen password cho VM
+libvirt_inject_password = True
+libvirt_inject_partition = -1
+enable_instance_password = True
+
 my_ip = $COM1_MGNT_IP
 vnc_enabled = True
 vncserver_listen = 0.0.0.0
 vncserver_proxyclient_address = $COM1_MGNT_IP
 novncproxy_base_url = http://$CON_EXT_IP:6080/vnc_auto.html
 glance_host = controller
+
 [database]
 connection = mysql://nova:$ADMIN_PASS@controller/nova
+
 [keystone_authtoken]
 auth_uri = http://controller:5000
 auth_host = controller
