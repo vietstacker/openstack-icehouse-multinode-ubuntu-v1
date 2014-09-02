@@ -53,6 +53,7 @@ resume_guests_state_on_host_boot=True
 
 #Cho phep dat password cho Instance khi khoi tao
 libvirt_inject_password = True
+libvirt_inject_partition = -1
 enable_instance_password = True
 
 network_api_class = nova.network.neutronv2.api.API
