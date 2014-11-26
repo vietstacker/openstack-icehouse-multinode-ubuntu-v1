@@ -2,6 +2,8 @@
 
 
 source config.cfg
+#Update cho Ubuntu
+apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y
 
 echo "########## Cai dat va cau hinh OpenvSwitch ##########"
 apt-get install -y openvswitch-controller openvswitch-switch openvswitch-datapath-dkms
